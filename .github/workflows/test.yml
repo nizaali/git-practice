@@ -1,0 +1,9 @@
+name: tijaabo fudud
+on: [push]
+jobs:
+  hubi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niza ali
+        run: echo "githup action is avaliable"
