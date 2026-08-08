@@ -1,9 +1,0 @@
-name: tijaabo fudud
-on: [push]
-jobs:
- hubi:
- runs-on: ubunta-latest
-steps:
- - uses: action/checkout@v4
- - name: ku daabac fariin
-  run: echo "github actions wuu shqeynaya"
